@@ -1,6 +1,90 @@
-<html>
-<header></header>
-    <body background="blue">
-      <p> WelCome To Hack </p>
-    </body>
+    <html>
+        <head>
+        <style>
+
+            .mid
+            {
+                margin-top: 100px;
+               
+
+            }
+            .m
+            {
+                
+            }
+            body
+            {
+                
+                background-image: url(h.jpg);
+            }
+            tr
+            {
+                text-align: center;
+            }
+            tr
+            {
+                width:"50%";
+            
+            }
+            .w
+            {width: 200px; height:20px;
+                 margin-left: 0px;   }
+            .b
+            {
+                width: 150px;
+            }
+            p
+            {
+                font-size: 40px;
+                color: crimson;
+                text-align: center;
+            }
+            </style>
+        </head>
+        <body>
+            <script language="javascript">
+            function Bu(form) {
+    if (document.log.username.value=="alwy") { 
+    if (document.log.pass.value=="hacker") {  
+        window.open('http://www.infoworld.com/category/hacking/');
+    } else {
+    alert("Invalid Password")
+    }
+    } else {  alert("Invalid UserID")
+    }
+    }
+                function lice()
+                {
+                    document.getElementById("t").innerHTML="user:alwy   pass:hacker";
+                }
+            </script>
+    
+
+           <div class="mid"> <center><form name="log"  >
+                <table class="m" cellpadding="0" cellspacing="0"  width="500px">
+                <tr>
+                   
+                    <td>
+                    <input class="w" type="text" placeholder="Enter your user name" name="username">
+                    </td>
+                        </tr>
+                    <tr>
+                   
+                    <td>
+                    <input class="w" type="password" placeholder="Enter your password" name="pass"> 
+                    </td>
+                        </tr>
+                    <tr>
+                         <td >
+                       <input class="b" type=submit value="log in " onClick="Bu(this.form)"  >
+                           </td>
+                    </tr>
+                </table>
+            </form></center></div>
+            <p>
+            Welcome To Hacking 
+            </p>
+           <center> <input type="button" onclick="lice()" value="Get limited licence">
+            <p id="t"></p></center>
+        </body>
 </html>
